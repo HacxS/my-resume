@@ -12,6 +12,7 @@ import { Moon } from './Moon';
 import { Search } from './Search';
 import { Sun } from './Sun';
 import { Twitter } from './Twitter';
+import { Reddit } from './Reddit';
 
 export const svg = {
   Blog,
@@ -28,4 +29,5 @@ export const svg = {
   Search,
   Sun,
   Twitter,
+  Reddit,
 };

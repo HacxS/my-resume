@@ -1,5 +1,5 @@
 import { openExternalLink } from '../../utils';
-import { facebookUrl, githubUrl, instagramUrl, linkedInUrl, twitterUrl } from '../SocialMedia';
+import { facebookUrl, githubUrl, instagramUrl, linkedInUrl, redditUrl, twitterUrl } from '../SocialMedia';
 import { IconActionType } from './type';
 
 function isValid(value: unknown) {
@@ -21,6 +21,17 @@ function pushActionWhenValid(value: string, action: IconActionType) {
   socialActions.push(action);
 }
 
+pushActionWhenValid(linkedInUrl, {
+  id: 'linkedin',
+  name: 'LinkedIn',
+  subtitle: getSocialMediaId(linkedInUrl),
+  section: 'Social',
+  shortcut: [],
+  keywords: 'contact, hire, job',
+  icon: 'Linkedin',
+  perform: () => openExternalLink(linkedInUrl),
+});
+
 pushActionWhenValid(githubUrl, {
   id: 'github',
   name: 'Github',
@@ -32,15 +43,27 @@ pushActionWhenValid(githubUrl, {
   perform: () => openExternalLink(githubUrl),
 });
 
-pushActionWhenValid(instagramUrl, {
-  id: 'instagram',
-  name: 'Instagram',
-  subtitle: getSocialMediaId(instagramUrl),
+pushActionWhenValid(twitterUrl, {
+  id: 'twitter',
+  name: 'Twitter',
+  subtitle: getSocialMediaId(twitterUrl),
   section: 'Social',
   shortcut: [],
-  keywords: 'dm, meta, contact, social media',
-  icon: 'Instagram',
-  perform: () => openExternalLink(instagramUrl),
+  keywords: 'dm, twitter, contact',
+  icon: 'Twitter',
+  perform: () => openExternalLink(twitterUrl),
+});
+
+
+pushActionWhenValid(twitterUrl, {
+  id: 'reddit',
+  name: 'Reddit',
+  subtitle: getSocialMediaId(redditUrl),
+  section: 'Social',
+  shortcut: [],
+  keywords: 'dm, reddit, contact',
+  icon: 'Reddit',
+  perform: () => openExternalLink(redditUrl),
 });
 
 pushActionWhenValid(facebookUrl, {
@@ -54,24 +77,13 @@ pushActionWhenValid(facebookUrl, {
   perform: () => openExternalLink(facebookUrl),
 });
 
-pushActionWhenValid(linkedInUrl, {
-  id: 'linkedin',
-  name: 'LinkedIn',
-  subtitle: getSocialMediaId(linkedInUrl),
+pushActionWhenValid(instagramUrl, {
+  id: 'instagram',
+  name: 'Instagram',
+  subtitle: getSocialMediaId(instagramUrl),
   section: 'Social',
   shortcut: [],
-  keywords: 'contact, hire, job',
-  icon: 'Linkedin',
-  perform: () => openExternalLink(linkedInUrl),
-});
-
-pushActionWhenValid(twitterUrl, {
-  id: 'twitter',
-  name: 'Twitter',
-  subtitle: getSocialMediaId(twitterUrl),
-  section: 'Social',
-  shortcut: [],
-  keywords: 'dm, twitter, contact',
-  icon: 'Twitter',
-  perform: () => openExternalLink(twitterUrl),
+  keywords: 'dm, meta, contact, social media',
+  icon: 'Instagram',
+  perform: () => openExternalLink(instagramUrl),
 });
