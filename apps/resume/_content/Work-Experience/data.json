@@ -4,21 +4,30 @@
     {
       "name": "AutoVid.ai",
       "position": "Chief Technology Officer",
-      "startDate": "2022.01",
-      "endDate": "",
+      "startDate": "2021.07",
+      "endDate": "Present",
       "description": "AI Generated Human Video (Convert text to studio quality videos).",
       "projects": [
         {
           "title": {
             "text": "AutoVid.ai",
             "githubLink": "https://github.com/hacxs/",
-            "otherLink": "https://govindkumar.in"
+            "otherLink": "https://autovid.ai"
           },
-          "description": "Woking on New AI Tech.",
-          "startDate": "2022.01",
-          "endDate": "",
-          "which": ["implement ai video driven by audio,text..."],
-          "techStack": ["Python", "PyTorch", "Django","3D Face Mesh","Mesh Normalisation","Texture Light Normalisation"]
+          "description": "Implementing High Quality AI Video Driven by Audio.",
+          "startDate": "2021.07",
+          "endDate": "Present",
+          "which": [
+            "Implemented new Research Paper published by Google for High Quality Video Generation.",
+            "Created Advanced Video Creator and Content Editable Webpage[Salespage] On Frontendaswell asServer Side Rendering",
+            "Created Many REST API for AI Avatar Based Video Creator and deploy to production.",
+            "Worked On Full Body AI Based Talking Video which are driven by Text or Audio."
+          ],
+          "techStack": [
+            "Python","Machine Learning","PyTorch", "Image Processing","Audio Processing","3D Face Mesh","Mesh Normalisation","Texture Light Normalisation",
+            "AWS","Docker","RabbitMQ","Celery","Nginx",
+            "Javascript","Node","Electron","ReactJS","ExpressJS"
+          ]
         }
       ]
     }
