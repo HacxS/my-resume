@@ -25,7 +25,7 @@
           ],
           "techStack": [
             "Python","Machine Learning","PyTorch", "Image Processing","Audio Processing","3D Face Mesh","Mesh Normalisation","Texture Light Normalisation",
-            "AWS","Docker","RabbitMQ","Celery","Nginx",
+            "AWS","Google Cloud","Kubernetes","Docker","Nginx","Django","Flask","RabbitMQ","Celery",
             "Javascript","Node","Electron","ReactJS","ExpressJS"
           ]
         }
