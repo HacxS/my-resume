@@ -22,6 +22,7 @@ const Div = styled.div`
   position: fixed;
   bottom: 1.5rem;
   right: 2rem;
+  z-index: 1;
 
   @media ${config.media.xsMax} {
     bottom: 1rem;
