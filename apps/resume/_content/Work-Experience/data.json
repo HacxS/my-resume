@@ -2,11 +2,11 @@
   "title": "Work Experience",
   "list": [
     {
-      "name": "AutoVid.ai",
-      "position": "Chief Technology Officer",
-      "startDate": "2021.07",
-      "endDate": "2022.11",
-      "description": "AI Generated Human Video (Convert text to studio quality videos).",
+      "name": "Truckbook",
+      "position": "Full Stack Developer ",
+      "startDate": "2022.12",
+      "endDate": "Present",
+      "description": "Working on Trips for reducing dead head and increase profits.",
       "projects": [
         {
           "title": {
@@ -23,7 +23,15 @@
           "techStack": [
             "Python","Node","ReactJS","NestJS"
           ]
-        },
+        }
+      },
+    {
+      "name": "AutoVid.ai",
+      "position": "Chief Technology Officer",
+      "startDate": "2021.07",
+      "endDate": "2022.11",
+      "description": "AI Generated Human Video (Convert text to studio quality videos).",
+      "projects": [
         {
           "title": {
             "text": "AutoVid.ai",
