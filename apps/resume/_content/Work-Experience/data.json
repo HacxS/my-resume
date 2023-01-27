@@ -10,6 +10,22 @@
       "projects": [
         {
           "title": {
+            "text": "Truckbook",
+            "githubLink": "https://github.com/hacxs/",
+            "otherLink": "https://truckbook.com"
+          },
+          "description": "",
+          "startDate": "2022.12",
+          "endDate": "Present",
+          "which": [
+           
+          ],
+          "techStack": [
+            "Python","Node","ReactJS","NestJS"
+          ]
+        },
+        {
+          "title": {
             "text": "AutoVid.ai",
             "githubLink": "https://github.com/hacxs/",
             "otherLink": "https://autovid.ai"
